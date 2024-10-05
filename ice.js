@@ -12,7 +12,7 @@ do{
 switch(choice){
     case '1':
         let icecream=prompt("Enter ice cream flavor:");
-        let cost=prompt("Enter the cost of ice cream");
+        let cost=Number(prompt("Enter the cost of ice cream"));
         ice.push(icecream);
         price.push(cost);
         break;
