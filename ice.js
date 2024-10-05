@@ -41,7 +41,7 @@ switch(choice){
         }
         break;
     case '3':
-        console.log("TOTAL NO OF ICE CREAM IN INVENTORY:"+ice.length+1);
+        console.log("TOTAL NO OF ICE CREAM IN INVENTORY:"+ice.length);
         break;
     case '4':
         let totalamount=0;
